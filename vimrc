@@ -11,21 +11,16 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-" see Vundle README for how to add non-github plugins or configure rtp
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-commentary'
 "Plugin 'tpope/vim-classpath'
 Plugin 'scrooloose/nerdtree'
 Plugin 'mbbill/undotree'
-Plugin 'vim-airline/vim-airline' "consider tpope/vim-airline
+Plugin 'vim-airline/vim-airline'
 Plugin 'dancardy/vim-airline-themes'
 Plugin 'qpkorr/vim-bufkill'
 
-"TODO:
-"Add %{FugitiveStatusline()} to 'statusline' to get an indicator with the current branch in (surprise!) your statusline.
-
-" All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
